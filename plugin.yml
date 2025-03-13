@@ -1,0 +1,31 @@
+name: RoleSMP
+version: 1.0
+main: me.itzjatinog.rolesmp.RoleSMP
+author: ItzJatinOG
+description: A Minecraft plugin that assigns players random roles with special abilities.
+api-version: 1.20
+
+commands:
+  giverole:
+    description: Assigns a random role to a player.
+    usage: /giverole
+  armystrength:
+    description: Activates the Army's strength ability.
+    usage: /armystrength
+  policecobweb:
+    description: Summons cobwebs around the player.
+    usage: /policecobweb
+  presidenttp:
+    description: Allows the President to teleport to a targeted location.
+    usage: /presidenttp
+  primeheal:
+    description: Heals the Prime Minister and grants a shield.
+    usage: /primeheal
+
+permissions:
+  rolesmp.admin:
+    description: Allows access to admin commands.
+    default: op
+  rolesmp.use:
+    description: Allows players to use role abilities.
+    default: true
